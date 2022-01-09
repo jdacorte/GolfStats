@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F12ADC50278B37720024C28C /* Course.swift in Sources */ = {isa = PBXBuildFile; fileRef = F12ADC4F278B37720024C28C /* Course.swift */; };
 		F15FDD222789E47B00E580BA /* GolfStatsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F15FDD212789E47B00E580BA /* GolfStatsApp.swift */; };
 		F15FDD242789E47B00E580BA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F15FDD232789E47B00E580BA /* ContentView.swift */; };
 		F15FDD262789E47C00E580BA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F15FDD252789E47C00E580BA /* Assets.xcassets */; };
@@ -14,6 +15,9 @@
 		F15FDD332789E47C00E580BA /* GolfStatsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F15FDD322789E47C00E580BA /* GolfStatsTests.swift */; };
 		F15FDD3D2789E47C00E580BA /* GolfStatsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F15FDD3C2789E47C00E580BA /* GolfStatsUITests.swift */; };
 		F15FDD3F2789E47C00E580BA /* GolfStatsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F15FDD3E2789E47C00E580BA /* GolfStatsUITestsLaunchTests.swift */; };
+		F15FDD4C2789E4B400E580BA /* HoleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F15FDD4B2789E4B400E580BA /* HoleView.swift */; };
+		F15FDD4E2789E4C300E580BA /* Hole.swift in Sources */ = {isa = PBXBuildFile; fileRef = F15FDD4D2789E4C300E580BA /* Hole.swift */; };
+		F15FDD50278A15F300E580BA /* Round.swift in Sources */ = {isa = PBXBuildFile; fileRef = F15FDD4F278A15F300E580BA /* Round.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F12ADC4F278B37720024C28C /* Course.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Course.swift; sourceTree = "<group>"; };
 		F15FDD1E2789E47B00E580BA /* GolfStats.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GolfStats.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F15FDD212789E47B00E580BA /* GolfStatsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GolfStatsApp.swift; sourceTree = "<group>"; };
 		F15FDD232789E47B00E580BA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -44,6 +49,9 @@
 		F15FDD382789E47C00E580BA /* GolfStatsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GolfStatsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F15FDD3C2789E47C00E580BA /* GolfStatsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GolfStatsUITests.swift; sourceTree = "<group>"; };
 		F15FDD3E2789E47C00E580BA /* GolfStatsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GolfStatsUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		F15FDD4B2789E4B400E580BA /* HoleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HoleView.swift; sourceTree = "<group>"; };
+		F15FDD4D2789E4C300E580BA /* Hole.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hole.swift; sourceTree = "<group>"; };
+		F15FDD4F278A15F300E580BA /* Round.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Round.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +104,10 @@
 			children = (
 				F15FDD212789E47B00E580BA /* GolfStatsApp.swift */,
 				F15FDD232789E47B00E580BA /* ContentView.swift */,
+				F15FDD4B2789E4B400E580BA /* HoleView.swift */,
+				F15FDD4F278A15F300E580BA /* Round.swift */,
+				F15FDD4D2789E4C300E580BA /* Hole.swift */,
+				F12ADC4F278B37720024C28C /* Course.swift */,
 				F15FDD252789E47C00E580BA /* Assets.xcassets */,
 				F15FDD272789E47C00E580BA /* Preview Content */,
 			);
@@ -257,8 +269,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F12ADC50278B37720024C28C /* Course.swift in Sources */,
 				F15FDD242789E47B00E580BA /* ContentView.swift in Sources */,
+				F15FDD4E2789E4C300E580BA /* Hole.swift in Sources */,
 				F15FDD222789E47B00E580BA /* GolfStatsApp.swift in Sources */,
+				F15FDD50278A15F300E580BA /* Round.swift in Sources */,
+				F15FDD4C2789E4B400E580BA /* HoleView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

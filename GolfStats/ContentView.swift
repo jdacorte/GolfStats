@@ -8,9 +8,11 @@
 import SwiftUI
 
 struct ContentView: View {
+    @StateObject var round = Round()
+   
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        
+        HoleView(round: round, holeIndex: 1)
     }
 }
 
