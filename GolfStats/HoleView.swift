@@ -15,7 +15,7 @@ struct HoleView: View {
     
     @State private var fairwayChoices = ["", "✅", "❌"]
     
-    
+    // some comment
     var body: some View {
         
         NavigationView {
