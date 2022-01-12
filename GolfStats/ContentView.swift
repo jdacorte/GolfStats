@@ -9,11 +9,17 @@ import SwiftUI
 
 struct ContentView: View {
     @StateObject var round = Round()
+    @StateObject var course = Course()
    
     var body: some View {
-        
-        HoleView(round: round, holeIndex: 1)
+        NavigationView {
+       
+            HoleView(course: course, round: round, holeIndex: 1)
+        }
+        .onAppear(perform: { print("starting content view") })
+            
     }
+       
 }
 
 struct ContentView_Previews: PreviewProvider {

@@ -8,7 +8,7 @@
 import Foundation
 
 class Round: ObservableObject {
-    @Published var hole = [HoleData]() {
+    @Published var hole = [HoleResult]() {
         didSet {
             print("round updated")
         }
@@ -18,9 +18,9 @@ class Round: ObservableObject {
     
     init () {
         self.date = Date()
-        let firstHole = HoleData(number: 5, fairwayHit: "", penalty: 0, putts: 2, score: 6, par: 5)
+        let firstHole = HoleResult(number: 5, fairwayHit: "", penalty: 0, putts: 2, score: 6, par: 5)
         self.hole.append(firstHole)
-        let secondHole = HoleData(number: 6, fairwayHit: "", penalty: 0, putts: 2, score: 5, par: 4)
+        let secondHole = HoleResult(number: 6, fairwayHit: "", penalty: 0, putts: 2, score: 5, par: 4)
         self.hole.append(secondHole)
 
         print(hole[0])

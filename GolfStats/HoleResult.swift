@@ -7,7 +7,7 @@
 
 import Foundation
 
-struct HoleData: Identifiable, Equatable {
+struct HoleResult: Identifiable, Equatable {
     var id = UUID()
     var number = 0
     var fairwayHit = ""
